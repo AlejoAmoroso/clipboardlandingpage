@@ -1,0 +1,173 @@
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: #ffffff;
+}
+
+.herobackground {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50vh;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 10rem;
+  margin-bottom: 4.5rem;
+  width: 10rem;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 3.7rem;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  max-width: 1000px;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.ios,
+.mac {
+  color: white;
+  border-radius: 2rem;
+  padding: 15px 45px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: background-color 200ms ease-in-out;
+  box-shadow: -2px 1px 75px -14px rgba(0, 0, 0, 0.41);
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 3.5px solid hsl(171, 67%, 40%);
+}
+.ios:hover {
+  background-color: #5dcdba;
+  border-bottom: 3.5px solid hsl(171, 67%, 40%);
+  color: white;
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 3.5px solid hsl(233, 68%, 60%);
+}
+.mac:hover {
+  background-color: #8896ff;
+  border-bottom: 3.5px solid hsl(233, 68%, 60%);
+  color: white;
+}
+
+.snippets-text {
+  margin-top: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.main-text {
+  color: hsl(201, 11%, 66%);
+  max-width: 800px;
+  text-align: center;
+  margin-top: 1.6rem;
+  font-size: 1.3rem;
+}
+
+.margin-top {
+  margin-top: 10rem;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.computer {
+  object-fit: cover;
+  padding-left: 0;
+  width: 60rem;
+  margin-right: 6rem;
+  margin-left: 0;
+  position: relative;
+  right: 3.4rem;
+}
+
+.features-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 400px;
+  margin-right: 25rem;
+  line-height: 2rem;
+}
+
+.features-title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: hsl(210, 10%, 33%);
+  font-size: 2rem;
+}
+
+.features-desc {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+
+.devices-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.devices {
+  width: 100%;
+}
+
+.workflow-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflow-cards-container {
+  display: flex;
+  gap: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
