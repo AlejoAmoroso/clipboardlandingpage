@@ -4,6 +4,15 @@ body {
   background-color: #ffffff;
 }
 
+.margin-top {
+  margin-top: 13rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
 .herobackground {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -103,10 +112,6 @@ body {
   font-size: 1.3rem;
 }
 
-.margin-top {
-  margin-top: 10rem;
-}
-
 .features-container {
   display: flex;
   flex-direction: row;
@@ -167,7 +172,79 @@ body {
 
 .workflow-cards-container {
   display: flex;
+  flex-direction: row;
   gap: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-text {
+  text-align: center;
+  max-width: 400px;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-desc {
+  font-size: 1rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.brands-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.downloads-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background-color: #f4f6f9;
+  height: 150px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-pages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 3.5rem;
+}
+
+.footer-pages-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
